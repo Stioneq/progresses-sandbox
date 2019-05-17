@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  > * {
+    width: 200px;
+  }
+
+  app-login-btn {
+    margin-top: 10px;
+  }
+}
